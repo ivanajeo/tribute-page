@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+}
+
+.header {
+    padding: 2rem 0;
+    
+}
+
+.header-container {
+    background-color: red;
+    color: #fff;
+    padding: 1rem 0;
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+    width: 60%;
+    min-width: 500px;
+}
