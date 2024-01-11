@@ -6,23 +6,109 @@
 
 body {
     background-color: rgba(255, 0, 0, 0.5);
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
 .header {
-    padding: 2rem 0;
+    padding: 1rem 0;
     
 }
 
 .header-container {
     background-color: red;
+    padding: 1.5rem 0;
+    width: 100vw;
+    text-align: center;
     color: #fff;
-    padding: 1rem 0;
-    height: 100%;
-    width: 100%;
 }
 
+.header-container h1 {
+    margin-bottom: 0.3rem;
+    font-size: 2.5rem;
+}
+
+.header-container p {
+    font-size: 1.2rem;
+}
+
+.white-box {
+    background-color: rgba(249, 210, 210, 0.719);
+    width: 90vw;
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .image {
+    margin-top: 1rem;
     width: 60%;
-    min-width: 500px;
+    min-width: 375px;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+.timeline {
+    width: 80%;
+    max-width: 600px;
+    min-width: 400px;
+    
+    margin-bottom: 1.5rem;
+}
+
+.timeline h3 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.year {
+    font-weight: bold;
+}
+
+.timeline ul li {
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.timeline ul{
+    margin-bottom: 1rem;
+}
+
+.quotes {
+    font-style: italic;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.learn-more {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
 }
